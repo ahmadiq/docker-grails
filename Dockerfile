@@ -5,7 +5,7 @@ MAINTAINER Ahmad Iqbal <ahmad@aurorasolutions.io>
 CMD ["/sbin/my_init"]
 
 # Set customizable env vars defaults.
-ENV GRAILS_VERSION 2.2.4
+ENV GRAILS_VERSION 2.4.3
 ENV JAVA_VER 7
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
 ENV JAVA_OPTS -Xms256m -Xmx512m -XX:MaxPermSize=256m
