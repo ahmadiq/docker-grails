@@ -6,8 +6,8 @@ CMD ["/sbin/my_init"]
 
 # Set customizable env vars defaults.
 ENV GRAILS_VERSION 2.4.3
-ENV JAVA_VER 7
-ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
+ENV JAVA_VER 8
+ENV JAVA_HOME /usr/lib/jvm/java-${JAVA_VER}-oracle
 ENV JAVA_OPTS -Xms256m -Xmx512m -XX:MaxPermSize=256m
 ENV GRAILS_DEPENDENCY_CACHE_DIR /app/.m2/repository
 
